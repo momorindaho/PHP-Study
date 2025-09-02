@@ -38,7 +38,7 @@ if(count($values) ===0) {
     return 0;
 }
 $sum = array_sum ($values);
-$count =count ($values)
+$count =count ($values);
 return $sum / $count;
 
 }
