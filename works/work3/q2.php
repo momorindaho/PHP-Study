@@ -24,8 +24,8 @@ if (multiply(2,0) === 0) {
 // ↑確認用コード↑(編集しないこと)
 
 // ここにコードを追記
-function multiply($a  * $b) {
-    return $a *  $b
+function multiply($a , $b) {
+    return $a *  $b;
 }
 
 
