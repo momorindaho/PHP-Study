@@ -20,4 +20,4 @@ function showUserStatus($user) {
     echo "ID: ".$user->getId()."\n";
     echo "名前: ".$user->getName()."\n";
     echo "年齢: ".$user->getAge()."\n";
-}
+}   echo"住所: ".$user-> getaddress()."\n";
