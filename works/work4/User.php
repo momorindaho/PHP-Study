@@ -5,6 +5,8 @@ class User {
     private $id;
     private $name;
     private $age;
+    private $address;
+
     // ↑フィールド============================
 
     // コンストラクタ
@@ -38,9 +40,12 @@ class User {
     function getAge() {
         return $this->age;
     }
+    
 
     // 問題2
     function getOlder() {
-
+    if ($this->age < 99) {
+       $this->age++;
     }
 }
+  }
